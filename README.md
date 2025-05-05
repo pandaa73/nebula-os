@@ -8,6 +8,7 @@ A simple OS written in Rust, for learning and entertainment.
 - [🚀 Compiling](#compiling)
 - [💾 Emulating](#emulating)
 - [💻 Installing](#installing)
+- [📦 Project Structure](#project-structure)
 
 # 🚀 Compiling <a name="compiling"></a>
 To compile the source, you must have [`rust`](https://www.rust-lang.org/)
@@ -43,7 +44,7 @@ into a disk.
 
 An installer may be added in the future.
 
-# 📦 Project Structure
+# 📦 Project Structure <a name="project-structure"></a>
 The OS boots using
 [`bootloader`](https://github.com/rust-osdev/bootloader).
 The kernel source is in the [`kernel`](./kernel) directory.
