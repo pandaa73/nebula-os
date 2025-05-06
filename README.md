@@ -36,7 +36,7 @@ $ cargo run
 ```
 will emulate the OS in `qemu-system-x86_64`, if installed.
 
-An easier way to change emulator might be added in the future.
+A way to change emulator might be added in the future.
 
 # 💻 Installing <a name="installing"></a>
 Currently, the only way to install the OS is to brutally paste the disk image
@@ -44,7 +44,7 @@ into a disk.
 
 An installer may be added in the future.
 
-# 📦 Project Structure <a name="project-structure"></a>
+# 📦 Project Structure <a name="project-structre"></a>
 The OS boots using
 [`bootloader`](https://github.com/rust-osdev/bootloader).
 The kernel source is in the [`kernel`](./kernel) directory.
